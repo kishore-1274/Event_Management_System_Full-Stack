@@ -1,0 +1,38 @@
+<div>
+    <form (ngSubmit)="create()">
+    <div>
+        <label for ="name">Name</label>
+    <input type="text" [(ngModel)]="eventform.name" name="name">     
+    </div>
+    
+    <div>
+        <label for ="date">Date</label>
+        <input type="text" [(ngModel)]="eventform.date" name="date">
+    </div>
+
+    <div>
+        <label for ="time">time</label>
+        <input type="text" [(ngModel)]="eventform.time" name="time">
+    </div>
+
+    <div>
+        <label for ="location">Location</label>
+        <input type="text" [(ngModel)]="eventform.location" name="location">
+    </div>
+
+    <div>
+        <label for ="price">Price</label>
+        <input type="text" [(ngModel)]="eventform.price" name="price">
+    </div>
+
+    <div>
+        <label for ="status">status</label>
+        <input type="text" [(ngModel)]="eventform.status" name="status">
+    </div>
+
+    <div>
+    <button type="submit">Submit</button>
+    </div>
+
+    </form>
+</div>

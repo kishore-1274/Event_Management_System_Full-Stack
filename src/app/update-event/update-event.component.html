@@ -1,0 +1,31 @@
+<div>
+  <form (ngSubmit)="update()">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" [(ngModel)]="updatedeventform.name" name="name">
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input type="text" [(ngModel)]="updatedeventform.date" name="date">
+    </div>
+    <div>
+        <label for="time">Time</label>
+        <input type="text" [(ngModel)]="updatedeventform.time" name="time">
+    </div>
+    <div>
+        <label for="Location">Location</label>
+        <input type="text" [(ngModel)]="updatedeventform.location" name="location">
+    </div>
+    <div>
+        <label for="Price">Price</label>
+        <input type="text" [(ngModel)]="updatedeventform.price" name="price">
+    </div>
+    <div>
+        <label for="status">Status</label>
+        <input type="text" [(ngModel)]="updatedeventform.status" name="status">
+    </div>
+
+    <button type="submit">submit</button>
+
+  </form>
+</div>
